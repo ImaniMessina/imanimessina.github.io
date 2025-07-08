@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imani Messina - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Source Sans Pro', sans-serif; line-height: 1.6; color: #333; background: white; font-size: 14px; }
+    .resume-container { max-width: 800px; margin: 0 auto; padding: 40px; background: white; }
+    .header { text-align: center; margin-bottom: 30px; border-bottom: 3px solid #ff6b9d; padding-bottom: 20px; }
+    .name { font-family: 'Playfair Display', serif; font-size: 2.5rem; font-weight: 900; color: #1a1a1a; margin-bottom: 5px; }
+    .title { font-size: 1.2rem; color: #ff6b9d; font-weight: 600; margin-bottom: 15px; }
+    .contact-info { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; font-size: 0.9rem; }
+    .contact-item { display: flex; align-items: center; gap: 5px; color: #666; }
+    .contact-item i { color: #ff6b9d; width: 16px; }
+    .section { margin-bottom: 25px; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; color: #1a1a1a; margin-bottom: 15px; border-bottom: 2px solid #f0f0f0; padding-bottom: 5px; }
+    .summary { background: #fafafa; padding: 20px; border-radius: 8px; border-left: 4px solid #ff6b9d; margin-bottom: 25px; }
+    .summary p { font-size: 1rem; line-height: 1.7; color: #555; }
+    .experience-item { margin-bottom: 20px; }
+    .job-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+    .job-title { font-weight: 600; font-size: 1.1rem; color: #1a1a1a; }
+    .company { font-weight: 500; color: #ff6b9d; }
+    .date { font-size: 0.9rem; color: #666; }
+    .job-description { margin-bottom: 10px; color: #555; }
+    .achievements { list-style: none; padding-left: 0; }
+    .achievements li { position: relative; padding-left: 20px; margin-bottom: 5px; color: #555; }
+    .achievements li::before { content: '•'; color: #ff6b9d; font-weight: bold; position: absolute; left: 0; }
+    .skills-section { display: flex; flex-wrap: wrap; gap: 40px; margin-top: 20px; }
+    .skills-list, .skills-list-2 { flex: 1 1 250px; }
+    .skills-list ul, .skills-list-2 ul { margin-left: 20px; margin-bottom: 10px; }
+    .skills-list-2 { margin-top: 0; }
+    .skills-list-2 ul { margin-top: 0; }
+    .skills-list-2 strong { display: block; margin-top: 10px; }
+    .education-section { margin-top: 30px; }
+    .education-title { font-weight: 600; color: #1a1a1a; }
+    .education-school { color: #ff6b9d; font-weight: 500; }
+    .education-date { font-size: 0.9rem; color: #666; }
+    @media print { body { font-size: 12px; } .resume-container { padding: 20px; max-width: none; } .name { font-size: 2rem; } .section { margin-bottom: 20px; } }
+    @media (max-width: 600px) { .resume-container { padding: 20px; } .contact-info { flex-direction: column; gap: 10px; } .job-header { flex-direction: column; align-items: flex-start; gap: 5px; } .skills-section { flex-direction: column; gap: 20px; } }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <!-- Header -->
+    <div class="header">
+      <div class="name">Imani Messina</div>
+      <div class="title">Aspiring Cybersecurity Professional</div>
+      <div class="contact-info">
+        <div class="contact-item"><i class="fas fa-envelope"></i><span>messinaimani@gmail.com</span></div>
+        <div class="contact-item"><i class="fas fa-phone"></i><span>832-609-8536</span></div>
+        <div class="contact-item"><i class="fab fa-linkedin"></i><span><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank" style="color:#ff6b9d;text-decoration:none;">linkedin.com/in/imaninessina</a></span></div>
+      </div>
+      <a href="Imani_Messina_Resume.pdf" download="Imani_Messina_Resume.pdf" style="display:inline-block;margin-top:18px;padding:10px 28px;background:#ff6b9d;color:#fff;font-weight:600;border:none;border-radius:6px;text-decoration:none;font-size:1rem;transition:background 0.2s;box-shadow:0 2px 8px rgba(255,107,157,0.08);">Download Resume</a>
+    </div>
+    <!-- Summary -->
+    <div class="section">
+      <div class="section-title">Professional Summary</div>
+      <div class="summary">
+        <p>Detail-oriented and highly organized aspiring cybersecurity professional with hands-on IT experience, strong technical and communication skills, and a passion for protecting digital assets. Experienced in IT support, device management, and network security. Eager to contribute to a forward-thinking organization and grow as a cybersecurity specialist.</p>
+      </div>
+    </div>
+    <!-- Experience -->
+    <div class="section">
+      <div class="section-title">Experience</div>
+      <div class="experience-item">
+        <div class="job-header">
+          <div><div class="job-title">IT Intern, Ecosystem Planning and Restoration</div></div>
+          <div class="date">June 2024 – Present</div>
+        </div>
+        <ul class="achievements">
+          <li>Supporting IT operations for a leading environmental consulting firm.</li>
+          <li>Assisting with device management, user support, and troubleshooting for staff.</li>
+          <li>Working with Microsoft Intune, Active Directory, and SCCM to manage endpoints and user access.</li>
+          <li>Contributing to network security, firewall configuration, and virtual machine management.</li>
+          <li>Documenting IT processes and providing technical support to improve team efficiency.</li>
+          <li>Gaining hands-on experience with PowerShell scripting and IT automation.</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <div class="job-header">
+          <div><div class="job-title">United Flight Systems, Student Success</div></div>
+          <div class="date">2024 – Present</div>
+        </div>
+        <ul class="achievements">
+          <li>Utilized data entry and organizational tools to streamline processes and maintain up-to-date student records.</li>
+          <li>Coordinated and managed scheduling for student pilots and instructors, demonstrating strong communication and organizational skills.</li>
+          <li>Provided support and guidance to students and instructors, fostering a positive and productive learning environment.</li>
+          <li>Managed social media platforms and created engaging content to promote the flight school.</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <div class="job-header">
+          <div><div class="job-title">Lambeau's Bar and Grill</div></div>
+          <div class="date">2022 – July 2024</div>
+        </div>
+        <ul class="achievements">
+          <li>Performed daily data entry of sales transactions into company database, ensuring accuracy and attention to detail.</li>
+          <li>Assisted in social media marketing to promote events and engage with customers online.</li>
+          <li>Trained and supervised new staff members, demonstrating leadership and communication skills.</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <div class="job-header">
+          <div><div class="job-title">Manager / Server, Tad's Bar and Grill</div></div>
+          <div class="date">2019 – 2022 (Manager), 2017 – 2019 (Server)</div>
+        </div>
+        <ul class="achievements">
+          <li><strong>Manager:</strong></li>
+          <li>Created and maintained employee schedules using Microsoft Office products to ensure adequate staffing and optimal shift coverage.</li>
+          <li>Developed training handbooks to standardize onboarding and operations.</li>
+          <li>Trained and supervised staff, providing feedback and fostering teamwork.</li>
+          <li>Conducted social media marketing to promote the business and engage with customers.</li>
+          <li>Maintained accurate financial records through daily data entry of deposits and sales.</li>
+          <li>Resolved customer issues and maintained high satisfaction through effective communication and problem-solving.</li>
+        </ul>
+      </div>
+      <hr style="border: none; border-top: 2px solid #ff6b9d; margin: 40px 0 30px 0;">
+      <div class="section education-section">
+        <div class="section-title">Education</div>
+        <div class="education-title">Associate of Applied Science in Cybersecurity (In Progress)</div>
+        <div class="education-school">Lone Star College</div>
+        <div class="education-date"></div>
+        <ul style="margin-left:20px; margin-top:10px;">
+          <li>Relevant Coursework: Computer Basics (Microsoft applications), Cisco IT Essentials</li>
+        </ul>
+        <div class="cert-section">
+          <div class="cert-title" style="font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;color:#ff6b9d;margin-top:25px;margin-bottom:10px;display:flex;align-items:center;"><i class="fas fa-certificate" style="margin-right:8px;"></i>Certifications</div>
+          <ul style="margin-left:20px; margin-bottom:10px;">
+            <li>CompTIA Security+ (in progress)</li>
+            <li>CCNA Cyber Ops (in progress)</li>
+            <li>Technical Certifications (in progress)</li>
+          </ul>
+        </div>
+      </div>
+      <hr style="border: none; border-top: 2px solid #ff6b9d; margin: 40px 0 30px 0;">
+      <div class="section">
+        <div class="section-title">Skills</div>
+        <div class="skills-section">
+          <div class="skills-list">
+            <ul>
+              <li>Data Entry and Management</li>
+              <li>Strong Communication Skills (verbal and written)</li>
+              <li>Customer Service</li>
+              <li>Organizational Skills</li>
+              <li>Multitasking</li>
+              <li>Attention to Detail</li>
+              <li>Time Management</li>
+            </ul>
+          </div>
+          <div class="skills-list">
+            <ul>
+              <li>Scheduling Appointments</li>
+              <li>Social Media Marketing</li>
+              <li>Inventory Management</li>
+              <li>Vendor Coordination</li>
+              <li>Professionalism</li>
+              <li>Problem-Solving Skills</li>
+              <li>Team Collaboration</li>
+            </ul>
+          </div>
+          <div class="skills-list-2">
+            <strong style="color:#ff6b9d;"><i class="fas fa-laptop-code" style="margin-right:6px;"></i>Technical Skills:</strong>
+            <ul>
+              <li>Microsoft Office Suite (Word, Excel, PowerPoint, Outlook)</li>
+              <li>Basic Networking (Cisco IT Essentials)</li>
+              <li>IT Support and Troubleshooting</li>
+              <li>SCCM</li>
+              <li>Python</li>
+              <li>HTML/CSS</li>
+              <li>PowerShell scripting</li>
+              <li>Firewall configuration</li>
+              <li>Network security</li>
+              <li>Virtual Machines</li>
+            </ul>
+            <strong style="display:block;margin-top:12px;">Languages:</strong>
+            <ul>
+              <li>English (fluent)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html> 
