@@ -39,6 +39,11 @@
     .education-title { font-weight: 600; color: #1a1a1a; }
     .education-school { color: #ff6b9d; font-weight: 500; }
     .education-date { font-size: 0.9rem; color: #666; }
+    .technical-skills { background: #fafafa; padding: 20px; border-radius: 8px; border-left: 4px solid #ff6b9d; margin-bottom: 25px; }
+    .skill-category { margin-bottom: 15px; }
+    .skill-category:last-child { margin-bottom: 0; }
+    .skill-category strong { color: #ff6b9d; font-weight: 600; }
+    .skill-category span { color: #555; }
     @media print { body { font-size: 12px; } .resume-container { padding: 20px; max-width: none; } .name { font-size: 2rem; } .section { margin-bottom: 20px; } }
     @media (max-width: 600px) { .resume-container { padding: 20px; } .contact-info { flex-direction: column; gap: 10px; } .job-header { flex-direction: column; align-items: flex-start; gap: 5px; } .skills-section { flex-direction: column; gap: 20px; } }
   </style>
@@ -52,7 +57,7 @@
       <div class="contact-info">
         <div class="contact-item"><i class="fas fa-envelope"></i><span>messinaimani@gmail.com</span></div>
         <div class="contact-item"><i class="fas fa-phone"></i><span>832-609-8536</span></div>
-        <div class="contact-item"><i class="fab fa-linkedin"></i><span><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank" style="color:#ff6b9d;text-decoration:none;">linkedin.com/in/imaninessina</a></span></div>
+        <div class="contact-item"><i class="fab fa-linkedin"></i><span><a href="https://linkedin.com/in/imaninessina" target="_blank" style="color:#ff6b9d;text-decoration:none;">linkedin.com/in/imaninessina</a></span></div>
       </div>
       <a href="Imani_Messina_Resume.pdf" download="Imani_Messina_Resume.pdf" style="display:inline-block;margin-top:18px;padding:10px 28px;background:#ff6b9d;color:#fff;font-weight:600;border:none;border-radius:6px;text-decoration:none;font-size:1rem;transition:background 0.2s;box-shadow:0 2px 8px rgba(255,107,157,0.08);">Download Resume</a>
     </div>
@@ -60,7 +65,28 @@
     <div class="section">
       <div class="section-title">Professional Summary</div>
       <div class="summary">
-        <p>Detail-oriented and highly organized aspiring cybersecurity professional with hands-on IT experience, strong technical and communication skills, and a passion for protecting digital assets. Experienced in IT support, device management, and network security. Eager to contribute to a forward-thinking organization and grow as a cybersecurity specialist.</p>
+        <p>Aspiring cybersecurity professional with hands-on experience in IT support, endpoint management, and security monitoring. Skilled in Microsoft Intune, SentinelOne, N-able, and NIST 800-53 frameworks, with a strong foundation in IT troubleshooting, process automation, and documentation. Background includes leadership, social media management, and customer service, offering a well-rounded skill set for both technical and cross-functional roles. Currently pursuing CompTIA Security+ and CCNA Cyber Ops.</p>
+      </div>
+    </div>
+    <!-- Technical Skills -->
+    <div class="section">
+      <div class="section-title">Technical & Professional Skills</div>
+      <div class="technical-skills">
+        <div class="skill-category">
+          <strong>Cybersecurity & IT:</strong> <span>SentinelOne (EDR) · N-able (RMM) · Microsoft Intune · SCCM · NIST 800-53 · Identity & Access Management (IAM) · Firewall Configuration · Virtual Machines · IT Support & Troubleshooting</span>
+        </div>
+        <div class="skill-category">
+          <strong>Scripting & Automation:</strong> <span>PowerShell · Excel Automation</span>
+        </div>
+        <div class="skill-category">
+          <strong>Networking & Systems:</strong> <span>Endpoint Management · Network Security · Active Directory (basic)</span>
+        </div>
+        <div class="skill-category">
+          <strong>Programming & Web:</strong> <span>Python · HTML/CSS</span>
+        </div>
+        <div class="skill-category">
+          <strong>Professional Skills:</strong> <span>Customer Service · Team Leadership · Communication (Verbal & Written) · Scheduling & Coordination · Social Media Marketing · Event Planning · Process Improvement · Documentation</span>
+        </div>
       </div>
     </div>
     <!-- Experience -->
@@ -68,54 +94,60 @@
       <div class="section-title">Experience</div>
       <div class="experience-item">
         <div class="job-header">
-          <div><div class="job-title">IT Intern, Ecosystem Planning and Restoration</div></div>
-          <div class="date">June 2024 – Present</div>
+          <div><div class="job-title">IT & Cybersecurity Intern</div><div class="company">Ecosystem Planning and Restoration</div></div>
+          <div class="date">Jun 2024 – Present | Spring, TX</div>
         </div>
         <ul class="achievements">
-          <li>Supporting IT operations for a leading environmental consulting firm.</li>
-          <li>Assisting with device management, user support, and troubleshooting for staff.</li>
-          <li>Working with Microsoft Intune, Active Directory, and SCCM to manage endpoints and user access.</li>
-          <li>Contributing to network security, firewall configuration, and virtual machine management.</li>
-          <li>Documenting IT processes and providing technical support to improve team efficiency.</li>
-          <li>Gaining hands-on experience with PowerShell scripting and IT automation.</li>
+          <li>Assisted in developing Information Security documentation, including mapping and selecting NIST 800-53 controls.</li>
+          <li>Monitored endpoint security with SentinelOne (EDR) and N-able (RMM), supporting incident response.</li>
+          <li>Managed employee devices with Microsoft Intune and SCCM, enforcing secure configurations and removing local admin rights.</li>
+          <li>Supported identity and access management (IAM) for onboarding, offboarding, and account provisioning.</li>
+          <li>Automated tasks with Excel tools and PowerShell scripts to improve reporting and efficiency.</li>
+          <li>Documented IT processes to streamline operations and knowledge transfer.</li>
         </ul>
       </div>
       <div class="experience-item">
         <div class="job-header">
-          <div><div class="job-title">United Flight Systems, Student Success</div></div>
-          <div class="date">2024 – Present</div>
+          <div><div class="job-title">Student Success Coordinator</div><div class="company">United Flight Systems</div></div>
+          <div class="date">Sep 2024 – Present | United States</div>
         </div>
         <ul class="achievements">
-          <li>Utilized data entry and organizational tools to streamline processes and maintain up-to-date student records.</li>
-          <li>Coordinated and managed scheduling for student pilots and instructors, demonstrating strong communication and organizational skills.</li>
-          <li>Provided support and guidance to students and instructors, fostering a positive and productive learning environment.</li>
-          <li>Managed social media platforms and created engaging content to promote the flight school.</li>
+          <li>Supported 100+ students by managing scheduling, enrollment, and individualized training support.</li>
+          <li>Coordinated events and contributed to the social media board, boosting engagement and visibility.</li>
+          <li>Streamlined student record management for improved efficiency.</li>
+          <li>Collaborated with instructors and administration to align resources and training goals.</li>
         </ul>
       </div>
       <div class="experience-item">
         <div class="job-header">
-          <div><div class="job-title">Lambeau's Bar and Grill</div></div>
-          <div class="date">2022 – July 2024</div>
+          <div><div class="job-title">Dispatcher (Part-Time)</div><div class="company">United Flight Systems</div></div>
+          <div class="date">Aug 2024 – Oct 2024 | United States</div>
         </div>
         <ul class="achievements">
-          <li>Performed daily data entry of sales transactions into company database, ensuring accuracy and attention to detail.</li>
-          <li>Assisted in social media marketing to promote events and engage with customers online.</li>
-          <li>Trained and supervised new staff members, demonstrating leadership and communication skills.</li>
+          <li>Coordinated aircraft and student scheduling to ensure safe and efficient operations.</li>
+          <li>Supported maintenance scheduling and administrative tasks.</li>
         </ul>
       </div>
       <div class="experience-item">
         <div class="job-header">
-          <div><div class="job-title">Manager / Server, Tad's Bar and Grill</div></div>
-          <div class="date">2019 – 2022 (Manager), 2017 – 2019 (Server)</div>
+          <div><div class="job-title">Manager / Server</div><div class="company">Tad's Bar & Grill</div></div>
+          <div class="date">2017 – 2022 | United States</div>
         </div>
         <ul class="achievements">
-          <li><strong>Manager:</strong></li>
-          <li>Created and maintained employee schedules using Microsoft Office products to ensure adequate staffing and optimal shift coverage.</li>
-          <li>Developed training handbooks to standardize onboarding and operations.</li>
-          <li>Trained and supervised staff, providing feedback and fostering teamwork.</li>
-          <li>Conducted social media marketing to promote the business and engage with customers.</li>
-          <li>Maintained accurate financial records through daily data entry of deposits and sales.</li>
-          <li>Resolved customer issues and maintained high satisfaction through effective communication and problem-solving.</li>
+          <li>Promoted to Manager (2019 – 2022) after demonstrating leadership and reliability.</li>
+          <li>Created schedules, trained staff, and standardized onboarding with training handbooks.</li>
+          <li>Managed daily operations including customer service, staff supervision, and financial recordkeeping.</li>
+          <li>Promoted the business through social media marketing and community outreach.</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <div class="job-header">
+          <div><div class="job-title">Server / Marketing Support</div><div class="company">Lambeau's Bar & Grill</div></div>
+          <div class="date">2022 – 2024 | United States</div>
+        </div>
+        <ul class="achievements">
+          <li>Performed data entry, tracked sales, and supported event promotion through social media marketing.</li>
+          <li>Delivered consistent customer service while maintaining financial accuracy.</li>
         </ul>
       </div>
       <hr style="border: none; border-top: 2px solid #ff6b9d; margin: 40px 0 30px 0;">
@@ -125,62 +157,14 @@
         <div class="education-school">Lone Star College</div>
         <div class="education-date"></div>
         <ul style="margin-left:20px; margin-top:10px;">
-          <li>Relevant Coursework: Computer Basics (Microsoft applications), Cisco IT Essentials</li>
+          <li>Relevant Coursework: Cisco IT Essentials, Microsoft Applications</li>
         </ul>
         <div class="cert-section">
           <div class="cert-title" style="font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;color:#ff6b9d;margin-top:25px;margin-bottom:10px;display:flex;align-items:center;"><i class="fas fa-certificate" style="margin-right:8px;"></i>Certifications</div>
           <ul style="margin-left:20px; margin-bottom:10px;">
-            <li>CompTIA Security+ (in progress)</li>
-            <li>CCNA Cyber Ops (in progress)</li>
-            <li>Technical Certifications (in progress)</li>
+            <li>CompTIA Security+ (In Progress)</li>
+            <li>Cisco Cyber Ops Associate</li>
           </ul>
-        </div>
-      </div>
-      <hr style="border: none; border-top: 2px solid #ff6b9d; margin: 40px 0 30px 0;">
-      <div class="section">
-        <div class="section-title">Skills</div>
-        <div class="skills-section">
-          <div class="skills-list">
-            <ul>
-              <li>Data Entry and Management</li>
-              <li>Strong Communication Skills (verbal and written)</li>
-              <li>Customer Service</li>
-              <li>Organizational Skills</li>
-              <li>Multitasking</li>
-              <li>Attention to Detail</li>
-              <li>Time Management</li>
-            </ul>
-          </div>
-          <div class="skills-list">
-            <ul>
-              <li>Scheduling Appointments</li>
-              <li>Social Media Marketing</li>
-              <li>Inventory Management</li>
-              <li>Vendor Coordination</li>
-              <li>Professionalism</li>
-              <li>Problem-Solving Skills</li>
-              <li>Team Collaboration</li>
-            </ul>
-          </div>
-          <div class="skills-list-2">
-            <strong style="color:#ff6b9d;"><i class="fas fa-laptop-code" style="margin-right:6px;"></i>Technical Skills:</strong>
-            <ul>
-              <li>Microsoft Office Suite (Word, Excel, PowerPoint, Outlook)</li>
-              <li>Basic Networking (Cisco IT Essentials)</li>
-              <li>IT Support and Troubleshooting</li>
-              <li>SCCM</li>
-              <li>Python</li>
-              <li>HTML/CSS</li>
-              <li>PowerShell scripting</li>
-              <li>Firewall configuration</li>
-              <li>Network security</li>
-              <li>Virtual Machines</li>
-            </ul>
-            <strong style="display:block;margin-top:12px;">Languages:</strong>
-            <ul>
-              <li>English (fluent)</li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
